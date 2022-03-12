@@ -11,3 +11,232 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  /* background-color: blue; */
+}
+
+
+.fix-nav {
+  border-bottom: 1px gray solid;
+}
+
+
+
+.my-icon {
+  font-size: larger;
+}
+
+#search-nav{
+  height: 40px;
+  border-radius: 8px;
+  border-color: #efefef00;
+  background-color: #efefef;
+  
+
+}
+
+.profile-icon {
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  border-radius: 35px;
+}
+
+.story-part{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: #5555553d solid 1px;
+  border-radius: 2px;
+  /* height: 120px; */
+  margin-bottom: 30px;
+}
+
+.single-story{
+  /* border:#5555553d solid 1px; */
+  height: 100px;
+  /* margin: 10px ; */
+  /* border-radius: 50%; */
+}
+
+.story-item {
+  height: 90px;
+  margin: 0.25rem;
+  border: 3px solid #5555553d;
+  border-radius: 50%;
+}
+
+.story-item p {
+  text-align: center;
+  margin-top: 5px;
+  color: #503737dc;
+}
+
+.inside-story {
+  height: 80px;
+  margin: 0.12rem;
+  border: 1px solid #efefef00;
+  border-radius: 50%;
+}
+
+
+.center-responsive {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-page {
+  width: 50%;
+  height: 70vh;
+  /* background-color:yellow; */
+  display: flex;
+}
+
+.signin-img  {
+  display: flex;
+  align-items: center;
+}
+
+.signin-form {
+  text-align: center;
+}
+
+
+.form-style {
+  border: #5555553d solid 1px;
+  /* height: 280px; */
+  width: 70%;
+  border-radius: 2px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap'); */
+
+.form-style h1 {
+  text-align:   center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-family: 'Pacifico', cursive;
+}
+.form-style input {
+  border: #5555553d solid 1px;
+  height: 40px;
+  margin: auto;
+  width: 80%;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.form-style button {
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  border-color: #50373700;
+  color: white;
+  background-color: #0597f6;
+  margin-bottom: 20px;
+}
+
+.form-style a {
+  text-align: center;
+  text-decoration: none !important;
+}
+
+
+.bottom-text-index {
+    border: #5555553d solid 1px;
+    height: 65px;
+    width: 70%;
+    border-radius: 2px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+.bottom-text-index a {
+  text-decoration: none;
+}
+
+.get-app {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  max-width: 80%;
+  margin: auto;
+}
+
+.get-app div img {
+  margin-top: 0px;
+  width: 170px;
+}
+
+
+.form-style a {
+  margin-bottom: 10px;
+}
+.signup {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+
+#search-nav{
+  padding-left: 10px;
+}
+
+.side {
+  height: 100vh;
+  /* background-color: #0597f6; */
+  position: sticky;
+  top: 0;
+  padding-top: 5vh;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+.posts {
+  height: 4000px;
+}
+
+.icon-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.al-cen {
+  display: flex;
+  align-items: center;
+}
+
+.mmbrICON img{
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.post {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: #5555553d solid 1px;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
